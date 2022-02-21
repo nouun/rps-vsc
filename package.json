@@ -1,0 +1,35 @@
+{
+	"name": "rose-pine-sepia",
+	"version": "0.1.0",
+	"publisher": "nouun",
+	"description": "Sepia soho vibes for VS Code",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/nouun/rps-vsc"
+	},
+	"author": {
+		"name": "nouun",
+		"email": "me@nouun.dev"
+	},
+	"type": "module",
+	"engines": {
+		"vscode": "^1.57.0"
+	},
+	"displayName": "Rose Pine Sepia",
+	"categories": [
+		"Themes"
+	],
+	"galleryBanner": {
+		"color": "#edd7bd",
+		"theme": "light"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Rose Pine Sepia",
+				"uiTheme": "vs",
+				"path": "./themes/rose-pine-sepia-color-theme.json"
+			}
+		]
+	}
+}

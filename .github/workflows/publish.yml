@@ -1,8 +1,8 @@
 on:
   workflow_dispatch:
-    push:
-      tags:
-        - '*'
+  push:
+    tags:
+      - '*'
 
 name: Deploy Extension
 jobs:
